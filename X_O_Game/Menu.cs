@@ -40,6 +40,7 @@ namespace X_O_Game
                     return;
                 case 1:
                     RunGameMainMenuMessage();
+                    LaunchGame.BeforeGame();
                     break;
                 default:
                     BadKeyMainMenuMessage();
