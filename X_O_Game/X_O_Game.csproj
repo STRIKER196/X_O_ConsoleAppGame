@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Body\" />
     <Folder Include="Constant\" />
   </ItemGroup>
 

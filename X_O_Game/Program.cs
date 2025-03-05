@@ -1,5 +1,6 @@
 ﻿using System;
-using X_O_Game.Body;
+using X_O_Game;
+using X_O_Game.Intro;
 
 namespace MyApp
 {
@@ -7,7 +8,8 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            GameDraft.GameIntro();
+            IntroTheGame.InicializeGame();
+            Menu.GameMenu();
         }
     }
 }
